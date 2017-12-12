@@ -15,6 +15,7 @@ class Home extends Component {
     e.preventDefault();
     this.props.onSubmit( this.state.username );
     this.setState( { content: "" } );
+    //redirect to SearchForm.js
   }
 
 
@@ -31,8 +32,5 @@ class Home extends Component {
     );
   }
 }
-
-//Centered user login form
-
 
 export default Home;

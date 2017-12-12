@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
+import SearchForm from './components/SearchForm';
 
 import Home from './components/Home';
 
@@ -7,14 +8,14 @@ const Routes = (
   <Router>
     <div>
       <Route exact path = "/" component = { Home } />
-
+      <Route path = "/searchform" component = { SearchForm } />
     </div>
   </Router>
 );
 
 export default Routes;
 
-// <Route path = "/searchform" component = { SearchForm } />
+
 // <Route path = "/seat_selection" component = { SeatSelection } />
 
 // const Roster = () => (

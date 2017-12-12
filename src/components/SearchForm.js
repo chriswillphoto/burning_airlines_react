@@ -68,10 +68,10 @@ function ListFlights(props) {
   );
 }
 
-  // { props.content.map( s => <p key = { s.id }>
-  // { s.content.origin }
-  // { s.content.destination }
-  // { s.content.seats_left}
-  // </p>)}
+  { props.content.map( s => <p key = { s.id }>
+  Origin: { s.content.origin }
+  Destination: { s.content.destination }
+  Seats Remaining: { s.content.seats_left}
+  </p>)}
 
 export default SearchForm;

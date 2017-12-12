@@ -7,13 +7,15 @@ const Routes = (
   <Router>
     <div>
       <Route exact path = "/" component = { Home } />
-      <Route path = "/searchform" component = { SearchForm } />
-      <Route path = "/seat_selection" component = { SeatSelection } />
+
     </div>
   </Router>
 );
 
 export default Routes;
+
+// <Route path = "/searchform" component = { SearchForm } />
+// <Route path = "/seat_selection" component = { SeatSelection } />
 
 // const Roster = () => (
 //   <Switch>
